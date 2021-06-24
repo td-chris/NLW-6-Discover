@@ -60,6 +60,18 @@ h2{
 }
 
 /* Input and buttons */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 input, button, .button{
     height: 5rem;
     border-radius: .8rem;
