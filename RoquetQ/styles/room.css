@@ -1,5 +1,5 @@
 .content{
-    max-width: 90%;
+    max-width: min(112rem ,90%);
 }
 
 #room header{
